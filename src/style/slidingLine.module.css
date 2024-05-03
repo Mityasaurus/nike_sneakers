@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  position: relative;
+  height: 49px;
+  width: 200%;
+}
+
+.image {
+  background-image: url("../assets/img/justDoItNike.png");
+  width: 100%;
+  animation: slideLeft 15s linear infinite;
+  height: 100%;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

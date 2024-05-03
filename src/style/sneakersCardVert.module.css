@@ -1,0 +1,14 @@
+.SneakersImg {
+  width: 350px;
+  height: 170px;
+}
+.title_red {
+  color: #ff3939;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 48px;
+}
+.text_desc {
+  font-size: 20px;
+  font-weight: 300;
+}

@@ -1,11 +1,10 @@
-import { AppBar, Button, Grid } from "@mui/material";
+import { AppBar, Grid } from "@mui/material";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import LocalMallOutlinedIcon from "@mui/icons-material/LocalMallOutlined";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import s from "../style/header.module.css";
-import imageQR from "../assets/img/header_qr.png";
 
 export default function Header() {
   return (
@@ -54,46 +53,6 @@ export default function Header() {
           </Grid>
         </Grid>
       </AppBar>
-      <Grid container position={"relative"}>
-        <img src={imageQR} alt="header_qr" width={"100%"} />
-        <Grid
-          container
-          flexDirection={"column"}
-          alignItems={"flex-start"}
-          justifyContent={"space-around"}
-          position={"absolute"}
-          maxWidth={"41%"}
-          height={"100%"}
-          top={"0"}
-          left={"3%"}
-        >
-          <h2>WE ARE NEVER DONE</h2>
-          <h3>
-            Celebrating 50 years of Nike from May 16th! Exclusive products,
-            experiences and much more await you for five days. Scan and join the
-            Nike app!
-          </h3>
-          <Button
-            variant="contained"
-            sx={{
-              backgroundColor: "white",
-              color: "black",
-              borderRadius: "16px",
-              border: "0px solid white",
-              textTransform: "none",
-              fontWeight: "600",
-              fontSize: "18px",
-              padding: "5px 25px",
-              "&:hover": {
-                backgroundColor: "white",
-                color: "black",
-              },
-            }}
-          >
-            Celebrate with us
-          </Button>
-        </Grid>
-      </Grid>
     </Grid>
   );
 }
