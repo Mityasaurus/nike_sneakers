@@ -9,10 +9,11 @@ export default function SneakersCardVert() {
     <Grid
       container
       width={"600px"}
-      height={"280px"}
+      height={"235px"}
       bgcolor={"#EFEFEF"}
       borderRadius={"18px"}
       boxShadow={"5px 5px 25px 0px rgba(0,0,0,0.25)"}
+      marginTop={"-45px"}
     >
       <Grid
         width={"50%"}

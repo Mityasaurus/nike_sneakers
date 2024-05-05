@@ -8,9 +8,10 @@ span {
   color: black;
   font-weight: 700;
 }
-a {
+.link {
   font-size: 18px;
   font-weight: 400;
+  color: black;
 }
 h2 {
   color: white;

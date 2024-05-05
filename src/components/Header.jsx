@@ -23,9 +23,15 @@ export default function Header() {
             maxWidth={"13%"}
             marginLeft={"15px"}
           >
-            <NavLink to={"/woman"}>WOMAN</NavLink>
-            <NavLink to={"/men"}>MEN</NavLink>
-            <NavLink to={"/all"}>ALL</NavLink>
+            <NavLink className={s.link} to={"/woman"}>
+              WOMAN
+            </NavLink>
+            <NavLink className={s.link} to={"/men"}>
+              MEN
+            </NavLink>
+            <NavLink className={s.link} to={"/all"}>
+              ALL
+            </NavLink>
           </Grid>
           <h1>
             YOUR<span>SNEAKER</span>
