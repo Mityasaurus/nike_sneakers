@@ -2,12 +2,12 @@ import React from "react";
 import BannerQR from "../components/BannerQR";
 import SlidingLine from "../components/SlidingLine";
 import peopleNikeLogoPng from "../assets/img/peopleNikeLogo.png";
-import SneakersCardVert from "../components/SneakersCardVert";
+import SneakersCardHorz from "../components/SneakersCardHorz";
 import { Grid } from "@mui/material";
 
 export default function AllSneakers() {
   return (
-    <div style={{ overflowX: "hidden" }}>
+    <div style={{ overflow: "hidden" }}>
       <BannerQR />
       <SlidingLine />
       <img src={peopleNikeLogoPng} alt="People nike logo" width="100%" />
@@ -17,8 +17,8 @@ export default function AllSneakers() {
         alignItems={"center"}
         gap={"4%"}
       >
-        <SneakersCardVert />
-        <SneakersCardVert />
+        <SneakersCardHorz />
+        <SneakersCardHorz />
       </Grid>
     </div>
   );

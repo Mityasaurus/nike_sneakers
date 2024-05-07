@@ -7,6 +7,12 @@ import { Link } from "react-router-dom";
 import s from "../style/footer.module.css";
 
 export default function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <footer>
       <BannerMembership />
@@ -28,13 +34,13 @@ export default function Footer() {
           marginLeft={"30px"}
           gap={"50px"}
         >
-          <Link className={s.link} to={"/all"}>
+          <Link className={s.link} to={"/all"} onClick={scrollToTop}>
             ALL
           </Link>
-          <Link className={s.link} to={"/woman"}>
+          <Link className={s.link} to={"/woman"} onClick={scrollToTop}>
             WOMAN
           </Link>
-          <Link className={s.link} to={"/men"}>
+          <Link className={s.link} to={"/men"} onClick={scrollToTop}>
             MEN
           </Link>
         </Grid>
@@ -52,13 +58,13 @@ export default function Footer() {
           marginRight={"30px"}
           gap={"50px"}
         >
-          <Link className={s.link} to={"/worcout"}>
+          <Link className={s.link} to={"/worcout"} onClick={scrollToTop}>
             WORCOUT
           </Link>
-          <Link className={s.link} to={"/run"}>
+          <Link className={s.link} to={"/run"} onClick={scrollToTop}>
             RUN
           </Link>
-          <Link className={s.link} to={"/football"}>
+          <Link className={s.link} to={"/football"} onClick={scrollToTop}>
             FOOTBALL
           </Link>
         </Grid>

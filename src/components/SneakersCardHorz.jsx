@@ -4,7 +4,7 @@ import s from "../style/sneakersCardVert.module.css";
 import ArrowBuyPng from "../assets/img/arrow_buy.png";
 import TestSneakersPhoto from "../assets/img/sneakers.png";
 
-export default function SneakersCardVert() {
+export default function SneakersCardHorz() {
   return (
     <Grid
       container
