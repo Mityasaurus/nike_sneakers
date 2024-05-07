@@ -58,8 +58,8 @@ export default function Footer() {
           marginRight={"30px"}
           gap={"50px"}
         >
-          <Link className={s.link} to={"/worcout"} onClick={scrollToTop}>
-            WORCOUT
+          <Link className={s.link} to={"/workout"} onClick={scrollToTop}>
+            WORKOUT
           </Link>
           <Link className={s.link} to={"/run"} onClick={scrollToTop}>
             RUN

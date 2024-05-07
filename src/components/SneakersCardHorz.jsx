@@ -24,7 +24,7 @@ export default function SneakersCardHorz() {
       >
         <p className={s.title_red}>NEW</p>
         <p className={s.text_desc}>Nike Air Max Dn</p>
-        <img src={ArrowBuyPng} alt="Buy" />
+        <img style={{ cursor: "pointer" }} src={ArrowBuyPng} alt="Buy" />
       </Grid>
       <Grid width={"50%"} zIndex={"999"}>
         <img className={s.SneakersImg} src={TestSneakersPhoto} alt="Sneakers" />
