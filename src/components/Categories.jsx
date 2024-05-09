@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function Categories() {
   return (
-    <Grid padding={"100px 30px"} container>
+    <Grid padding={"80px 0"} container>
       <p className={s.text_title}>Buy by category</p>
       <Link to={"/workout"} style={{ width: "100%" }}>
         <Grid className={s.container}>

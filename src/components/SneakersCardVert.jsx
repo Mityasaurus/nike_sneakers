@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 import React from "react";
-import s from "../style/sneakersCardHorz.module.css";
+import s from "../style/sneakersCardVert.module.css";
 import TestSneakersPhoto from "../assets/img/sneakers.png";
 import ArrowBuyPng from "../assets/img/arrow_buy.png";
 

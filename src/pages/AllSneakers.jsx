@@ -2,10 +2,10 @@ import React from "react";
 import BannerQR from "../components/BannerQR";
 import SlidingLine from "../components/SlidingLine";
 import peopleNikeLogoPng from "../assets/img/peopleNikeLogo.png";
-import SneakersCardHorz from "../components/SneakersCardHorz";
 import { Grid } from "@mui/material";
 import PaginatedSneakers from "../components/PaginatedSneakers";
 import Categories from "../components/Categories";
+import SneakersCardsHorzList from "../components/SneakersCardsHorzList";
 
 export default function AllSneakers() {
   return (
@@ -18,9 +18,9 @@ export default function AllSneakers() {
         justifyContent={"center"}
         alignItems={"center"}
         gap={"4%"}
+        marginTop={"-45px"}
       >
-        <SneakersCardHorz />
-        <SneakersCardHorz />
+        <SneakersCardsHorzList type="new" size={2} />
       </Grid>
       <Grid
         container
@@ -42,6 +42,25 @@ export default function AllSneakers() {
       </Grid>
       <PaginatedSneakers />
       <Categories />
+      <p
+        style={{
+          fontSize: "40px",
+          fontStyle: "italic",
+          fontWeight: "1000",
+          textAlign: "center",
+          marginBottom: "80px",
+        }}
+      >
+        LOOKS GOOD. RUNS GOOD. FEELS GOOD.
+      </p>
+      <Grid
+        container
+        justifyContent={"space-around"}
+        alignItems={"center"}
+        paddingBottom={"80px"}
+      >
+        <SneakersCardsHorzList type="discount" size={2} />
+      </Grid>
     </Grid>
   );
 }

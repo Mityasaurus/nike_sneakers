@@ -1,0 +1,12 @@
+{
+  "sneakers": [
+    { "name": "Air Max 90", "price": "120", "isNew": "false" },
+    { "name": "Air Force 1", "price": "90", "isNew": "true" },
+    { "name": "React Element 55", "price": "130", "isNew": "false" },
+    { "name": "Air VaporMax", "price": "190", "isNew": "true" },
+    { "name": "Blazer Mid '77", "price": "100", "isNew": "false" },
+    { "name": "Air Max 270", "price": "150", "isNew": "true" },
+    { "name": "Zoom Fly SP", "price": "150", "isNew": "false" },
+    { "name": "Air Presto", "price": "120", "isNew": "true" }
+  ]
+}
