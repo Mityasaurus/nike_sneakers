@@ -6,8 +6,12 @@ import { Grid } from "@mui/material";
 import PaginatedSneakers from "../components/PaginatedSneakers";
 import Categories from "../components/Categories";
 import SneakersCardsHorzList from "../components/SneakersCardsHorzList";
+import { useApp } from "../utils/context";
 
 export default function AllSneakers() {
+  const { sneakersData } = useApp();
+  console.log(sneakersData);
+
   return (
     <Grid overflow={"hidden"}>
       <BannerQR />
@@ -20,7 +24,11 @@ export default function AllSneakers() {
         gap={"4%"}
         marginTop={"-45px"}
       >
-        <SneakersCardsHorzList type="new" size={2} />
+        <SneakersCardsHorzList
+          type="new"
+          size={2}
+          sneakersData={sneakersData}
+        />
       </Grid>
       <Grid
         container
@@ -40,7 +48,7 @@ export default function AllSneakers() {
           Fight the heat in a sunny look!
         </p>
       </Grid>
-      <PaginatedSneakers />
+      <PaginatedSneakers sneakersData={sneakersData} size={3} />
       <Categories />
       <p
         style={{
@@ -59,7 +67,11 @@ export default function AllSneakers() {
         alignItems={"center"}
         paddingBottom={"80px"}
       >
-        <SneakersCardsHorzList type="discount" size={2} />
+        <SneakersCardsHorzList
+          type="discount"
+          size={2}
+          sneakersData={sneakersData}
+        />
       </Grid>
     </Grid>
   );

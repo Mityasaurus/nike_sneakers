@@ -6,10 +6,11 @@
 }
 .SneakersImg {
   width: 330px;
-  height: auto;
+  max-width: 330px;
   rotate: -32deg;
   align-self: center;
   margin-top: 35%;
+  margin-left: -8%;
 }
 .ArrowBuyImg {
   align-self: flex-end;

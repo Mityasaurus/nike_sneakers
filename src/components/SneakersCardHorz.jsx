@@ -2,10 +2,9 @@ import React from "react";
 import { Grid } from "@mui/material";
 import s from "../style/sneakersCardHorz.module.css";
 import ArrowBuyPng from "../assets/img/arrow_buy.png";
-import TestSneakersPhoto from "../assets/img/sneakers.png";
 import { Link } from "react-router-dom";
 
-export default function SneakersCardHorz({ name, type }) {
+export default function SneakersCardHorz({ name, type, img }) {
   return (
     <Grid
       container
@@ -51,7 +50,7 @@ export default function SneakersCardHorz({ name, type }) {
         )}
       </Grid>
       <Grid width={"50%"} zIndex={"999"}>
-        <img className={s.SneakersImg} src={TestSneakersPhoto} alt="Sneakers" />
+        <img className={s.SneakersImg} src={img} alt="Sneakers" />
       </Grid>
     </Grid>
   );

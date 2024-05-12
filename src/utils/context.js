@@ -1,5 +1,5 @@
-import { createContext, useContext, useState } from "react";
-import { BASE_URL } from "../constants/jsonServer";
+import { createContext, useContext, useEffect, useState } from "react";
+import { BASE_URL, SNEAKERS_PATH } from "../constants/jsonServer";
 
 const AppContext = createContext();
 
@@ -12,16 +12,21 @@ export const AppProvider = ({ children }) => {
 
   const get_sneakers_data = async (...obj) => {
     try {
-      const response = await fetch(
-        `${BASE_URL}${fetch_config.PATH_RATE}?${obj[0]}`
-      );
+      const response = await fetch(`${BASE_URL}/${SNEAKERS_PATH}`);
       const data = await response.json();
-      setRate(data);
-      return data;
+      setSneakersData(data);
     } catch (error) {
       console.error(error);
     }
   };
 
-  return <AppContext.Provider value={{}}>{children}</AppContext.Provider>;
+  useEffect(() => {
+    get_sneakers_data();
+  }, []);
+
+  return (
+    <AppContext.Provider value={{ sneakersData }}>
+      {children}
+    </AppContext.Provider>
+  );
 };
