@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1df4905f.css",
+    "main.js": "/static/js/main.1084840e.js",
+    "static/media/peopleNikeLogo.png": "/static/media/peopleNikeLogo.0e001f60bade667b7200.png",
+    "static/media/FootballPoster.png": "/static/media/FootballPoster.da188713db7a8a34322f.png",
+    "static/media/WorkoutPoster.png": "/static/media/WorkoutPoster.aa50498a71daf59222d8.png",
+    "static/media/RunPoster.png": "/static/media/RunPoster.db2a9769b11eb6196f74.png",
+    "static/media/bannerMembership.png": "/static/media/bannerMembership.8d6b0c43651afbfd5148.png",
+    "static/media/header_qr.png": "/static/media/header_qr.05c26361887bec6d3324.png",
+    "static/media/NikeLogoWithUkraine.png": "/static/media/NikeLogoWithUkraine.6415c40662fb51d035d3.png",
+    "index.html": "/index.html",
+    "main.1df4905f.css.map": "/static/css/main.1df4905f.css.map",
+    "main.1084840e.js.map": "/static/js/main.1084840e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1df4905f.css",
+    "static/js/main.1084840e.js"
+  ]
+}
