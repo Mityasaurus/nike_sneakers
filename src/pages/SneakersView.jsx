@@ -1,10 +1,12 @@
 import React from "react";
-import { useApp } from "../utils/context";
+// import { useApp } from "../utils/context";
 import { Grid } from "@mui/material";
 import SneakersCardVert from "../components/SneakersCardVert";
+import { sneakersItems } from "../constants/db";
 
 export default function SneakersView({ type, name }) {
-  const { sneakersData } = useApp();
+  // const { sneakersData } = useApp();
+  const sneakersData = sneakersItems;
   const items = sneakersData.filter((s) => s.type === type);
   return (
     <Grid

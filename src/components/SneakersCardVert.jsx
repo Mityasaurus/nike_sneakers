@@ -21,7 +21,7 @@ export default function SneakersCardVert({ name, price, img }) {
       <img className={s.SneakersImg} src={img} alt="Sneakers" />
       <h4
         className={s.text_title}
-        style={{ marginTop: name.length > 18 ? "25%" : "35%" }}
+        style={{ marginTop: name.length > 18 ? "15%" : "35%" }}
       >
         {name}
       </h4>

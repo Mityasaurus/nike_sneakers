@@ -6,10 +6,12 @@ import { Grid } from "@mui/material";
 import PaginatedSneakers from "../components/PaginatedSneakers";
 import Categories from "../components/Categories";
 import SneakersCardsHorzList from "../components/SneakersCardsHorzList";
-import { useApp } from "../utils/context";
+// import { useApp } from "../utils/context";
+import { sneakersItems } from "./../constants/db";
 
 export default function AllSneakers() {
-  const { sneakersData } = useApp();
+  // const { sneakersData } = useApp();
+  const sneakersData = sneakersItems;
   console.log(sneakersData);
 
   return (
