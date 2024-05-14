@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nike_sneakers/static/css/main.1df4905f.css",
-    "main.js": "/nike_sneakers/static/js/main.cf50dbfc.js",
+    "main.css": "/nike_sneakers/static/css/main.70adb079.css",
+    "main.js": "/nike_sneakers/static/js/main.f5295ba0.js",
     "static/media/peopleNikeLogo.png": "/nike_sneakers/static/media/peopleNikeLogo.0e001f60bade667b7200.png",
     "static/media/FootballPoster.png": "/nike_sneakers/static/media/FootballPoster.da188713db7a8a34322f.png",
     "static/media/WorkoutPoster.png": "/nike_sneakers/static/media/WorkoutPoster.aa50498a71daf59222d8.png",
@@ -10,11 +10,11 @@
     "static/media/header_qr.png": "/nike_sneakers/static/media/header_qr.05c26361887bec6d3324.png",
     "static/media/NikeLogoWithUkraine.png": "/nike_sneakers/static/media/NikeLogoWithUkraine.6415c40662fb51d035d3.png",
     "index.html": "/nike_sneakers/index.html",
-    "main.1df4905f.css.map": "/nike_sneakers/static/css/main.1df4905f.css.map",
-    "main.cf50dbfc.js.map": "/nike_sneakers/static/js/main.cf50dbfc.js.map"
+    "main.70adb079.css.map": "/nike_sneakers/static/css/main.70adb079.css.map",
+    "main.f5295ba0.js.map": "/nike_sneakers/static/js/main.f5295ba0.js.map"
   },
   "entrypoints": [
-    "static/css/main.1df4905f.css",
-    "static/js/main.cf50dbfc.js"
+    "static/css/main.70adb079.css",
+    "static/js/main.f5295ba0.js"
   ]
 }
